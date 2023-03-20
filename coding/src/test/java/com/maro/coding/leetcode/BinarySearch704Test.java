@@ -19,15 +19,15 @@ public class BinarySearch704Test {
 
         assertEquals(4, output);
     }
-
     @Test
     @DisplayName("예시2 리스트에 값이 없으면 -1")
     void example_2() {
-        // nums = [-1,0,3,5,9,12], target = 2
+        int[] nums = {-1,0,3,5,9,12};
+        int target = 2;
 
-        int output = 0;
-
+        int output = binarySearch.binarySearch(nums, target);
 
         assertEquals(-1, output);
     }
+
 }
