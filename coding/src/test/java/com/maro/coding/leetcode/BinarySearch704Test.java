@@ -15,7 +15,7 @@ public class BinarySearch704Test {
         int[] nums = {-1,0,3,5,9,12};
         int target = 9;
 
-        int output = binarySearch.binarySearch(nums, target);
+        int output = binarySearch.search(nums, target);
 
         assertEquals(4, output);
     }
@@ -25,7 +25,7 @@ public class BinarySearch704Test {
         int[] nums = {-1,0,3,5,9,12};
         int target = 2;
 
-        int output = binarySearch.binarySearch(nums, target);
+        int output = binarySearch.search(nums, target);
 
         assertEquals(-1, output);
     }
