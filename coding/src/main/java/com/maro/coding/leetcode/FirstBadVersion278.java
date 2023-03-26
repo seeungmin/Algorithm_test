@@ -1,5 +1,8 @@
 package com.maro.coding.leetcode;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class FirstBadVersion278 extends VersionControl {
     // https://leetcode.com/problems/first-bad-version/?envType=study-plan&id=algorithm-i
     public int firstBadVersion(int n) {
