@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MoveZeroes283 {
-    public void moveZeroes(int[] nums) {
+    public int[] moveZeroes(int[] nums) {
         int index = 0;
         for(int i = 0; i < nums.length; i++){
             if(nums[i] != 0){
@@ -15,5 +15,7 @@ public class MoveZeroes283 {
         for(int j = index; j<nums.length; j++){
             nums[j] = 0;
         }
+
+        return nums;
     }
 }
